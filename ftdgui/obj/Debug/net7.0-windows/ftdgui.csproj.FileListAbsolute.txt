@@ -1,0 +1,17 @@
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\bin\Debug\net7.0-windows\ftdgui.exe
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\bin\Debug\net7.0-windows\ftdgui.deps.json
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\bin\Debug\net7.0-windows\ftdgui.runtimeconfig.json
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\bin\Debug\net7.0-windows\ftdgui.dll
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\bin\Debug\net7.0-windows\ftdgui.pdb
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.csproj.AssemblyReference.cache
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.Form1.resources
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.csproj.GenerateResource.cache
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.AssemblyInfo.cs
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.dll
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\refint\ftdgui.dll
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.pdb
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ftdgui.genruntimeconfig.cache
+C:\Users\Daniel\Documents\code\c#\gui\ftdgui\obj\Debug\net7.0-windows\ref\ftdgui.dll
