@@ -30,7 +30,9 @@
         {
             btnAdd = new Button();
             label1 = new Label();
-            panel1 = new Panel();
+            viewPanel = new Panel();
+            btnAddInput = new Button();
+            btnAddOutput = new Button();
             SuspendLayout();
             // 
             // btnAdd
@@ -52,20 +54,45 @@
             label1.TabIndex = 1;
             label1.Text = "Names";
             // 
-            // panel1
+            // viewPanel
             // 
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Location = new Point(12, 30);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(800, 500);
-            panel1.TabIndex = 4;
+            viewPanel.BorderStyle = BorderStyle.FixedSingle;
+            viewPanel.Location = new Point(12, 30);
+            viewPanel.Name = "viewPanel";
+            viewPanel.Size = new Size(800, 500);
+            viewPanel.TabIndex = 4;
+            viewPanel.MouseDown += viewPanel_MouseDown;
+            viewPanel.MouseMove += viewPanel_MouseMove;
+            viewPanel.MouseUp += viewPanel_MouseUp;
+            // 
+            // btnAddInput
+            // 
+            btnAddInput.Location = new Point(818, 59);
+            btnAddInput.Name = "btnAddInput";
+            btnAddInput.Size = new Size(100, 23);
+            btnAddInput.TabIndex = 5;
+            btnAddInput.Text = "Add Input";
+            btnAddInput.UseVisualStyleBackColor = true;
+            btnAddInput.Click += btnAddInput_Click;
+            // 
+            // btnAddOutput
+            // 
+            btnAddOutput.Location = new Point(818, 88);
+            btnAddOutput.Name = "btnAddOutput";
+            btnAddOutput.Size = new Size(100, 23);
+            btnAddOutput.TabIndex = 6;
+            btnAddOutput.Text = "Add Output";
+            btnAddOutput.UseVisualStyleBackColor = true;
+            btnAddOutput.Click += btnAddOutput_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1184, 761);
-            Controls.Add(panel1);
+            Controls.Add(btnAddOutput);
+            Controls.Add(btnAddInput);
+            Controls.Add(viewPanel);
             Controls.Add(label1);
             Controls.Add(btnAdd);
             Name = "Form1";
@@ -78,6 +105,8 @@
 
         private Button btnAdd;
         private Label label1;
-        public Panel panel1;
+        public Panel viewPanel;
+        private Button btnAddInput;
+        private Button btnAddOutput;
     }
 }
